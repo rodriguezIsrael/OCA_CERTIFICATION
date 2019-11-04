@@ -1,12 +1,10 @@
 package com.examples.oca.declarations;
 
 /**
- * 
  * Clase que tiene declaraciones de variables validas e invalidas
  * 
  * @since 03/11/2019
  * @author isivroes
- *
  */
 public class LegalDeclarations {
 
