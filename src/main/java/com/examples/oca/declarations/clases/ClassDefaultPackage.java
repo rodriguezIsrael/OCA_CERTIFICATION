@@ -7,7 +7,6 @@ package com.examples.oca.declarations.clases;
  * Lo que quiere decir que solo las clases que vivan dentro de la misma clase
  * pueden utilizar estos valores
  * 
- * 
  * @since 03/11/2019
  * @author isivroes
  *
@@ -15,7 +14,7 @@ package com.examples.oca.declarations.clases;
 class ClassDefaultPackage {
 
 	/**
-	 * Se declara variable publica
+	 * Se declara variable publica.
 	 */
 	public String hello = "Soy una variable publica que proviene de una clase sin modificador de acceso";
 
