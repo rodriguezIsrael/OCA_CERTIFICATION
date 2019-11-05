@@ -9,7 +9,7 @@ package com.examples.oca.declarations;
 public class LegalDeclarations {
 
 	/**
-	 * Variable que inicia con multiples guines bajos
+	 * Variable que inicia con multiples guiones bajos
 	 */
 	public static final String _____a = "String _____a";
 
