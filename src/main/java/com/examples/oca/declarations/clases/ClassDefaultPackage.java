@@ -7,6 +7,7 @@ package com.examples.oca.declarations.clases;
  * Lo que quiere decir que solo las clases que vivan dentro de la misma clase
  * pueden utilizar estos valores
  * 
+ * 
  * @since 03/11/2019
  * @author isivroes
  *
