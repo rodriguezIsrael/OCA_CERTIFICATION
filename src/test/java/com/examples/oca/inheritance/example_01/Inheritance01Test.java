@@ -1,8 +1,8 @@
-package com.examples.oca.inheritance;
+package com.examples.oca.inheritance.example_01;
 
 import org.junit.jupiter.api.Test;
 
-import com.examples.oca.declarations.inheritance.Apple;
+import com.examples.oca.declarations.inheritance.example_01.Apple;
 
 /**
  * 
@@ -12,7 +12,7 @@ import com.examples.oca.declarations.inheritance.Apple;
  * @author isivroes
  *
  */
-public class InheritanceTest {
+public class Inheritance01Test {
 
 	Apple apple = new Apple();
 

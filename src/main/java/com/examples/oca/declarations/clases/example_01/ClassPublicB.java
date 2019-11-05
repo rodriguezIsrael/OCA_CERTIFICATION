@@ -1,4 +1,4 @@
-package com.examples.oca.declarations.clases;
+package com.examples.oca.declarations.clases.example_01;
 
 /**
  * Se declara clase que tiene modificador de acceso publico, por lo cual

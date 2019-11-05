@@ -1,4 +1,4 @@
-package com.examples.oca.declarations.clases;
+package com.examples.oca.declarations.clases.example_01;
 
 /**
  * Clase sin modificador de acceso, por lo cual esta clase tendra el modificador

@@ -2,7 +2,7 @@ package com.examples.oca.declarations;
 
 import org.junit.jupiter.api.Test;
 
-import com.examples.oca.declarations.clases.ClassPublicB;
+import com.examples.oca.declarations.clases.example_01.ClassPublicB;
 
 /**
  * Clase de pruebas para mostrar cuando si y cuando no se puede acceder a

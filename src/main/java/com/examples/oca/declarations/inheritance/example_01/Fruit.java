@@ -1,4 +1,4 @@
-package com.examples.oca.declarations.inheritance;
+package com.examples.oca.declarations.inheritance.example_01;
 
 /**
  * Clase abstracta utilizada para heredar
