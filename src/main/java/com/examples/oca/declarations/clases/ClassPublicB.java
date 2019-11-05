@@ -23,6 +23,12 @@ public class ClassPublicB {
 	ClassDefaultPackage defaultPackagePublic = new ClassDefaultPackage();
 
 	/**
+	 * Se declara un objeto que tiene como modificador de acceso public final, lo
+	 * cual permite que se use pero no heredarse
+	 */
+	public PublicFinalClass publicFinalClass = new PublicFinalClass();
+
+	/**
 	 * Se obtiene la instancia de una clase sin modificador de acceso
 	 * [DefaultPackage]
 	 * 
@@ -53,6 +59,17 @@ public class ClassPublicB {
 				"Pintanto el valor de una variable con modifcador de acceso default package de un objeto que proviene de una clase que tiene default package");
 		System.out.println(defaultPackageOne.defaultPackage);
 		return defaultPackageOne.defaultPackage;
+	}
+
+	/**
+	 * Se pinta y retorna el valor de una clase con modificador de acceso public
+	 * final
+	 * 
+	 * @return String - publicFInalClass
+	 */
+	public String callPublicFinalClass() {
+		System.out.println(publicFinalClass.value);
+		return publicFinalClass.value;
 	}
 
 }

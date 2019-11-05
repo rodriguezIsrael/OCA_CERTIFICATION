@@ -60,4 +60,13 @@ public class ClasesDeclarationTest {
 
 	}
 
+	/**
+	 * Se llama una variable publica desde una clase public final, que no puede ser
+	 * extendida pero si instanciada
+	 */
+	@Test
+	public void callPublicFinalClass() {
+		System.out.println("Valor obtenido:: " + classPublicB.callPublicFinalClass());
+	}
+
 }
