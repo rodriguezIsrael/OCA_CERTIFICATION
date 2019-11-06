@@ -12,15 +12,6 @@ import org.junit.jupiter.api.Test;
 public class MainTest {
 
 	/**
-	 * Se genera ejemplo invocando un main sin pasarle argumentos
-	 */
-	@Test
-	public void testMainWithOutArgs() {
-
-		MainDefault.main();
-	}
-
-	/**
 	 * Se genera un ejemplo invocando a un main pasandole argumentos de tipo varargs
 	 */
 	@Test

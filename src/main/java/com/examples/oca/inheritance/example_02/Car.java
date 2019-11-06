@@ -1,4 +1,4 @@
-package com.examples.oca.declarations.inheritance.example_02;
+package com.examples.oca.inheritance.example_02;
 
 /**
  * Se crea clase sin constructor por default obligando a que la clase que

@@ -1,4 +1,4 @@
-package com.examples.oca.declarations.clases.example_01;
+package com.examples.oca.clases.example_01;
 
 /**
  * Clase con modificador de acceso final, lo que no permite que pueda heredarse
