@@ -7,7 +7,22 @@ package com.examples.oca.inheritance.example_03;
  * @author isivroes
  *
  */
-public class B {
+public class B extends A {
+
+	static public void sayHelloMethod() {
+
+		System.out.println("Soy el metodo: sayHelloMethod sobre escrito");
+	}
+
+	/**
+	 * Se intenta sobre escribir un método, pero da error de compilacion debido a
+	 * que el metodo se encuentra con el modificador de acceso final, lo que no
+	 * permite que el metodo sea sobreescrito (PARA VISUALIZAR EL ERROR, DESCOMENTAR
+	 * LAS SIGUIENTES LINEAS DE CÓDIGO)
+	 */
+//	public static final void staticFinalMethod() {
+//		System.out.println("Intentando sobre escribit un método");
+//	}
 
 	public static void main(String... strings) {
 
@@ -54,7 +69,13 @@ public class B {
 		 * linea de código de abajo
 		 */
 //		System.out.println(a.sayHelloPrivate);
-		
+
+		B b = new B();
+
+		/**
+		 * Se invoca al método sobre escrito de la clase A
+		 */
+		b.sayHelloMethod();
 
 	}
 

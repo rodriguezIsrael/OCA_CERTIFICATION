@@ -55,6 +55,11 @@ public class LegalDeclarations {
 	public static final String Class = "String Class";
 
 	/**
+	 * Se declara variable con el nombre de $
+	 */
+	public static final String $ = "String $";
+
+	/**
 	 * No se pueden utilizar declaraciones empezando con números
 	 */
 //	public String 34_="Declaracion invalida";
@@ -98,6 +103,7 @@ public class LegalDeclarations {
 		System.out.println("Valida: " + LegalDeclarations.doublE);
 		System.out.println("Valida: " + LegalDeclarations.inT);
 		System.out.println("Valida: " + LegalDeclarations.string);
+		System.out.println("Valida: " + LegalDeclarations.$);
 	}
 
 }

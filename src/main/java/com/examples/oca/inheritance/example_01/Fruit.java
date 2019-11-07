@@ -16,6 +16,16 @@ public abstract class Fruit {
 	public abstract void abstractMethod();
 
 	/**
+	 * No se puede colocar un modificador de acceso privado a un metodo abstracto
+	 */
+//	private abstract void privateAbstractMethod();
+
+	/**
+	 * Es valido poner un metodo abstracto como protected
+	 */
+	protected abstract void protectedAbstract();
+
+	/**
 	 * Método abstracto que tiene el modificador de acceso final, esto no esta
 	 * permitido cuando se tiene el modificador de acceso abstract, [Descomentar la
 	 * linea de código para visualizar el error]

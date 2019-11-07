@@ -24,7 +24,7 @@ public class Apple extends Fruit {
 	/**
 	 * Se sobre escribe el metodo del padre
 	 */
-	public void overridedMethod() {
+	public  void overridedMethod() {
 		System.out.println("Sobre escribi al metodo original");
 	}
 
@@ -43,6 +43,12 @@ public class Apple extends Fruit {
 	public void callRealMethod() {
 
 		super.overridedMethod();
+	}
+
+	@Override
+	protected void protectedAbstract() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

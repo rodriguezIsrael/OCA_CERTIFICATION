@@ -43,4 +43,11 @@ public class A {
 				+ A.class.getSimpleName());
 	}
 
+	/**
+	 * Se crea un metodo final statico que no podra ser sobreescrito
+	 */
+	public static final void staticFinalMethod() {
+		System.out.println("Soy un metodo static final");
+	}
+
 }
