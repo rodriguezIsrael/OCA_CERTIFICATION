@@ -5,7 +5,7 @@ package com.examples.oca.loops;
  */
 public class ForExample {
 
-    public static final void main(String ...test){
+    public static final void main(String... test) {
 
         /**
          * Se genera un bucle infinito
@@ -29,10 +29,8 @@ public class ForExample {
 //            System.out.println("Hellooo (3)!! "+i);
 //        }
         byte j = 0;
-        for(;;j++){
-            System.out.println("Hello (4) "+ j);
+        for (; ; j++) {
+            System.out.println("Hello (4) " + j);
         }
-
-
     }
 }
