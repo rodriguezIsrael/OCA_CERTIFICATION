@@ -39,7 +39,7 @@ Palabras reservadas poco conocidas en Java
 
 ## Tipos de datos.
 
- * variables mas chicas pueden asignarse en variables de mayor rango, y una variable de mayor rango, puede asignarse a una variable de menor rango realizando casteos.
+ * variables mas chicas pueden asignarse en variables de mayor rango, y una variable de mayor rango, puede asignarse a una variable de menor rango realizando casteos, pero el valor puede verse alterado, si el valor rebasa el limite maximo de la variable a asignar.
 
   
 
